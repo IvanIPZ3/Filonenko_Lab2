@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-"""CLI-програма для перекладу (ЛР2).
-Використовує функції з translator_lib.
-"""
 from translator_lib import TransLate, LangDetect, CodeLang
 
 def main():
@@ -12,7 +8,6 @@ def main():
     print("\n--- Результати ---")
     print(LangDetect(txt))
     print(TransLate(txt, lang))
-    # Демонстрація прикладу
     print(CodeLang("En"))
     print(CodeLang("English"))
 
